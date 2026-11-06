@@ -1,70 +1,37 @@
-<div align="center">
+# Cory Hepler
 
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/94533962/fQoLKEicktPIosfe.png" width="180" style="border-radius: 50%;" />
+I build systems that run without me and tell me when they can't.
 
-# Hey, I'm Cory 👋
+By day I work at Hy-Vee in Lee's Summit, where the first thing I automated was the delivery
+drivers' tip and route reconciliation that a person used to compile by hand. After hours I
+run a political newsroom staffed by AI agents, with me as the only editor.
 
-**Software Developer @ Hy-Vee** · Building tools that make life easier
+## The Baseline
 
-[![Hy-Vee](https://img.shields.io/badge/Hy--Vee-E31837?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=white)](https://www.hy-vee.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[thebaseline.report](https://thebaseline.report) · [source](https://github.com/hepler1394/the-baseline)
 
-</div>
+A newsroom that reads the wire around the clock, finds what is breaking by counting
+independent newsrooms, checks what public figures claim against sources it fetched itself,
+and publishes to the site and Instagram behind an evidence gate written in code. 213
+published checks citing 1,670 sources, 10,000 leads a month, 748 scheduled runs across 13
+workflows, zero anonymous sources. Four agents (Claude, Codex, Hermes, Grok) share the work
+through a mailbox the site hosts; every outage it has had is written up with the guarantee
+that came out of it.
 
----
+Next.js 16 · React 19 · Supabase · Vercel · GitHub Actions · Anthropic and Google models with
+failover · Playwright for the cards.
 
-## 🏢 Day Job
+## Also
 
-I work at **Hy-Vee** — one of the largest employee-owned supermarket chains in the Midwest. I build internal tools and customer-facing solutions that keep things running smooth.
+| | |
+|---|---|
+| [ig-studio](https://github.com/hepler1394/ig-studio) | Renders Instagram cards in a house style and posts them itself; a dropped link becomes a researched, verified carousel |
+| [hyvee-delivery-tracker](https://github.com/hepler1394/hyvee-delivery-tracker) | Driver tip and route reconciliation for store 1380 |
+| [Cortex](https://github.com/hepler1394/Cortex) | A personal assistant on the desktop, the phone and Telegram |
+| [crimetime](https://github.com/hepler1394/crimetime) | A true-crime podcast studio: drafting, voicing, rendering and publishing episodes |
 
-| Project | What it does |
-|---------|-------------|
-| [**hyvee-delivery-tracker**](https://github.com/hepler1394/hyvee-delivery-tracker) | Delivery tip tracker dashboard for Lee's Summit store #1380 |
-| [**WhereIsIt**](https://github.com/hepler1394/WhereIsIt) | Grocery store brand finder & product locator |
+## How I work with AI
 
----
-
-## 🚀 Side Projects
-
-What I build after hours — Apple news, media tools, web utilities, and more.
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**Everything Apple**](https://github.com/hepler1394/everything-apple) | Your #1 source for Apple News, WWDC 2026, iPhones & more | React · TypeScript · Tailwind |
-| [**Powerful Websites Library**](https://github.com/hepler1394/powerful-websites-library) | 280+ powerful free websites curated from deep research | HTML · CSS |
-| [**CrimeTimeSnacks**](https://github.com/hepler1394/crimetimesnacks) | CrimeTimeSnacks website | TypeScript · React |
-| [**CrimeTime**](https://github.com/hepler1394/crimetime) | True crime content platform | HTML |
-| [**PlexUpdates**](https://github.com/hepler1394/PlexUpdates) | Plex media server update tracker | HTML |
-
----
-
-## 🛠️ Tech Stack
-
-```
-Frontend     →  React · TypeScript · Tailwind CSS · Next.js · Vite
-Backend      →  Node.js · Express · Python
-Deployment   →  Vercel · GitHub Actions
-Tools        →  VS Code · Claude · Codex · Manus
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Cory's GitHub stats](https://github-readme-stats.vercel.app/api?username=hepler1394&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hepler1394&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
-
-</div>
-
----
-
-<div align="center">
-
-*Building things that matter, one commit at a time.*
-
-</div>
+The models write most of the code. I write the rules they work to, the gates that decide
+what may ship, the tests that hold the line, and the incident reports when something gets
+through. Commits are co-authored and say so. The judgment stays with me; the typing is shared.
